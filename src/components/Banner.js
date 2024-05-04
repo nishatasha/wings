@@ -1,18 +1,19 @@
-// src/components/Banner.js
 import React from 'react';
-import Button from './Button';  // Ensure Button component is correctly imported
+import Button from './Button';
 import '../style/Banner.css';
+import '../style/Button.css';
 
-function Banner({ primaryButtonText, onPrimaryButtonClick, secondaryButtonText, onSecondaryButtonClick }) {
+
+function Banner({ title, text, primaryButtonText, primaryButtonAction, secondaryButtonText, secondaryButtonAction }) {
     return (
         <div className="banner">
             <div className="banner-text">
-                <h2>Discover Amazing Places</h2>
-                <p>Join us to explore the most beautiful parts of this world.</p>
+                <h2>{title}</h2>
+                <p>{text}</p>
             </div>
-            <div className="button-container"> {/* Container for buttons */}
-                <Button text={primaryButtonText} onClick={onPrimaryButtonClick} />
-                <Button text={secondaryButtonText} onClick={onSecondaryButtonClick} />
+            <div className="button-container">
+                <Button className="primary" text={primaryButtonText} onClick={primaryButtonAction} />
+                <Button className="secondary" text={secondaryButtonText} onClick={secondaryButtonAction} />
             </div>
         </div>
     );

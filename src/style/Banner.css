@@ -7,7 +7,7 @@
     height: 430px;
 }
 
-.banner-text{
+.banner-text {
     text-align: left;
     margin-top: 150px;
     color: #000000;
@@ -17,7 +17,7 @@
 .banner-text h2 {
     padding-bottom: 0;
     margin-bottom: 0;
-    font-size: 37px;
+    font-size: 40px;
 }
 
 .banner-text p {

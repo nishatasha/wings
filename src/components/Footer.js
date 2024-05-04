@@ -5,7 +5,7 @@ import '../style/Footer.css';
 function Footer() {
     return (
         <footer>
-            <p>© 2024 Wings. All rights reserved.</p>
+            <p>© 2024 All rights reserved</p>
         </footer>
     );
 }

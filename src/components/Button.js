@@ -2,12 +2,10 @@
 import React from 'react';
 import '../style/Button.css';
 
-function Button({ text, onClick }) {
+function Button({ className, text, onClick }) {
     return (
-        <div className="button-container"> {/* Container for alignment */}
-            <button className="button" onClick={onClick}>
-                
-                
+        <div className="button-container">
+            <button className={`button ${className}`} onClick={onClick}>
                 {text}
             </button>
         </div>
