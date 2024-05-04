@@ -1,3 +1,3 @@
 # Wings - Travel Website
-# Demo
+## Demo
 click [here](https://nishatasha.github.io/wings/) to see!
