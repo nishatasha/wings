@@ -1,0 +1,27 @@
+/* src/style/Banner.css */
+.banner {
+    background: url('../image/hero-banner.jpg') no-repeat center / cover;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+    height: 430px;
+}
+
+.banner-text{
+    text-align: left;
+    margin-top: 150px;
+    color: #000000;
+    padding-left: 30px;
+}
+
+.banner-text h2 {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 37px;
+}
+
+.banner-text p {
+    padding-top: 0;
+    margin-top: 5px;
+    font-size: 22px;
+}

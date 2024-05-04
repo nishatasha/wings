@@ -1,0 +1,34 @@
+/* src/style/Button.css */
+.button-container {
+    display: flex;        /* This will lay out its children (buttons) in a horizontal line */
+    justify-content: start;  /* Aligns items to the start of the container */
+    gap: 20px;            /* Provides space between the buttons */
+    margin-bottom: 20px;  /* Optional: Adds some margin below the container for spacing */
+}
+
+.button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s, opacity 0.3s; /* Smooth transition for hover effects */
+}
+
+.button:hover {
+    background-color: darkblue;
+    opacity: 0.8; /* Slightly fades the button on hover for a visual effect */
+}
+
+.primary {
+    background-color: blue;
+    margin-left: 80px;
+}
+
+.secondary {
+    background-color: #fff;
+    color: blue;
+    border: 2px solid blue;
+}
