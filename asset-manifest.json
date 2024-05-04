@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/nishatasha/wings.git/static/css/main.48ad66e9.css",
-    "main.js": "/nishatasha/wings.git/static/js/main.d055828d.js",
-    "static/media/img-03.jpg": "/nishatasha/wings.git/static/media/img-03.10fb7e957064527340de.jpg",
-    "static/media/img-01.jpg": "/nishatasha/wings.git/static/media/img-01.ba12fbe1ff775531d472.jpg",
-    "static/media/hero-banner.jpg": "/nishatasha/wings.git/static/media/hero-banner.76f785a95009a6b60cdb.jpg",
-    "static/media/img-02.jpg": "/nishatasha/wings.git/static/media/img-02.ab343af920ec7cb89da0.jpg",
-    "static/media/img-04.jpg": "/nishatasha/wings.git/static/media/img-04.edab70ea3c02e3b590b4.jpg",
-    "index.html": "/nishatasha/wings.git/index.html",
-    "main.48ad66e9.css.map": "/nishatasha/wings.git/static/css/main.48ad66e9.css.map",
-    "main.d055828d.js.map": "/nishatasha/wings.git/static/js/main.d055828d.js.map"
+    "main.css": "/wings/static/css/main.8391035c.css",
+    "main.js": "/wings/static/js/main.06eb1444.js",
+    "static/media/img-03.jpg": "/wings/static/media/img-03.10fb7e957064527340de.jpg",
+    "static/media/img-01.jpg": "/wings/static/media/img-01.ba12fbe1ff775531d472.jpg",
+    "static/media/hero-banner.jpg": "/wings/static/media/hero-banner.76f785a95009a6b60cdb.jpg",
+    "static/media/img-02.jpg": "/wings/static/media/img-02.ab343af920ec7cb89da0.jpg",
+    "static/media/img-04.jpg": "/wings/static/media/img-04.edab70ea3c02e3b590b4.jpg",
+    "index.html": "/wings/index.html",
+    "main.8391035c.css.map": "/wings/static/css/main.8391035c.css.map",
+    "main.06eb1444.js.map": "/wings/static/js/main.06eb1444.js.map"
   },
   "entrypoints": [
-    "static/css/main.48ad66e9.css",
-    "static/js/main.d055828d.js"
+    "static/css/main.8391035c.css",
+    "static/js/main.06eb1444.js"
   ]
 }
